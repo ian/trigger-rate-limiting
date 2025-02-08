@@ -7,6 +7,7 @@ This is a simple example of how to rate limit jobs in Trigger.dev using Redis.
 1. Clone the repository
 2. Run `pnpm install`
 3. Run `pnpm dev`
+4. In trigger dashboard, run the `launcherJob`
 
 ## Usage
 
