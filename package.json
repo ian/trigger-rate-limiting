@@ -1,0 +1,17 @@
+{
+	"name": "trigger-rate-limiting",
+	"private": true,
+	"scripts": {
+		"dev": "npx dotenv-cli npx trigger.dev dev",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@trigger.dev/sdk": "3.3.13",
+		"ioredis": "5.4.2"
+	},
+	"devDependencies": {
+		"@trigger.dev/build": "3.3.13",
+		"@types/node": "22.13.1",
+		"typescript": "5.7.3"
+	}
+}
